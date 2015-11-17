@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Life</title>
+<title>Tech talks</title>
 <link rel="icon" href="${pageContext.request.contextPath}/images/coffee-512.png" type="image/x-icon">
 <link rel="stylesheet"
 	href="${pageContext.request.contextPath}/bootstrap/css/bootstrap.css">
@@ -42,9 +42,9 @@
 						<li><a href="${pageContext.request.contextPath}/life"
 						style="font-family: myFirstFont; font-size: 20px">Life</a></li>
 						
-						<li><a href="${pageContext.request.contextPath}/tech-over-tea"
+												<li><a href="${pageContext.request.contextPath}/tech-over-tea"
 						style="font-family: myFirstFont; font-size: 20px">Tech over Tea</a></li>	
-												
+						
 					<li><a href="${pageContext.request.contextPath}/saySomething"
 						style="font-family: myFirstFont; font-size: 20px">Say
 							Something</a></li>
@@ -53,6 +53,8 @@
 
 		</div>
 	</div>
+	<br />
+	<br />
 	<br />
 	<br />
 	<br />
@@ -69,36 +71,41 @@
          
          <div class="col-md-3">
            <div class="thumbnail">
-            <a href="${pageContext.request.contextPath}/life/from-one-tea-to-another-tea"><img  src="${pageContext.request.contextPath}/images/large.png"/></a><br/>
-           <br/> <a class="text-center" href="${pageContext.request.contextPath}/life/from-one-tea-to-another-tea" style="font-family: myFirstFont; font-size: 20px">There is no such thing as too much tea ...</a>            
+            <a href="${pageContext.request.contextPath}/blog/handling-404-error"><img  src="${pageContext.request.contextPath}/images/404.png"   /></a><br/>
+            <br/><br/><br/><br/><br/><br/>
+            <a class="text-center" href="${pageContext.request.contextPath}/blog/handling-404-error" style="font-family: myFirstFont; font-size: 20px">Handling 404 Error in Java EE</a>            
            </div>
          </div>
          
           <div class="col-md-3">
            <div class="thumbnail">
-            <a href="${pageContext.request.contextPath}/life/i-love-bangalore"><img src="${pageContext.request.contextPath}/images/B5KdHlA29Q.jpg"   /> </a>
-            <a class="text-center" href="${pageContext.request.contextPath}/life/i-love-bangalore" style="font-family: myFirstFont; font-size: 20px">I love bangalore </a>                    
+            <a href="${pageContext.request.contextPath}/blog/why-you-should-be-a-polyglot">
+            <img src="${pageContext.request.contextPath}/images/t2dboch0.png"/> </a>
+            <br/><br/><br/><br/>
+            <a class="text-center" href="${pageContext.request.contextPath}/blog/why-you-should-be-a-polyglot" style="font-family: myFirstFont; font-size: 20px">Why you should be a polyglot?</a>                    
            </div>
          </div>
            
            <div class="col-md-3">
            <div class="thumbnail">
-            <a href="${pageContext.request.contextPath}/life/give-more"><img src="${pageContext.request.contextPath}/images/give.jpg"  /></a>
-           <br/><br/><br/><a class="text-center" href="${pageContext.request.contextPath}/life/give-more" style="font-family: myFirstFont; font-size: 20px">Give more you will end up having more </a>                               
+            <a href="${pageContext.request.contextPath}/blog/why-you-should-add-a-sitemap"><img src="${pageContext.request.contextPath}/images/blog/sitemap-icon.svg"  /></a>
+           <a class="text-center" href="${pageContext.request.contextPath}/blog/why-you-should-add-a-sitemap" style="font-family: myFirstFont; font-size: 20px">Why you should add a Sitemap? </a>                               
            </div>                     
          </div>
                   
           <div class="col-md-3">
            <div class="thumbnail">
-            <a href="${pageContext.request.contextPath}/life/dare-to-be-yourself"><img src="${pageContext.request.contextPath}/images/born.jpg"  /></a>
-            <a class="text-center" href="${pageContext.request.contextPath}/life/dare-to-be-yourself" style="font-family: myFirstFont; font-size: 20px">Dare to be youself </a>                               
-           </div>            
+            <a href="${pageContext.request.contextPath}/blog/adding-google-analytics"><img src="${pageContext.request.contextPath}/images/blog/google-analytics-logo.png"  /></a>
+            <br/><br/> <br/><br/><br/><br/>
+            <a class="text-center" href="${pageContext.request.contextPath}/blog/adding-google-analytics" style="font-family: myFirstFont; font-size: 20px">Adding Google Analytics to your website </a>                               
+           </div> 
+           </div>           
          </div>
          
          
         
         </div>
-    </div>
+    
 	
 	
 	
@@ -106,16 +113,16 @@
 	<!-- ------- Thumbnails Ends -->
 	
 
-    <!-- - Pagination Starts 
+    <!-- - Pagination Starts -->
     
      <div class="text-center container">
       <ul class="pagination  pagination-lg">
-        <li class="disabled"><a href="">&laquo;</a></li>
-        <li class="active"><a href="${pageContext.request.contextPath}/life">1</a></li>
-        <li><a href="${pageContext.request.contextPath}/life/2">2</a></li>
-        <li><a href="">3</a></li>
-        <li><a href="">4</a></li>
-        <li ><a href="${pageContext.request.contextPath}/life/2">&raquo;</a></li>
+        <li><a href="${pageContext.request.contextPath}/tech-over-tea">&laquo;</a></li>
+        
+        <li><a href="${pageContext.request.contextPath}/tech-over-tea">1</a></li>
+        <li class="active"><a href="${pageContext.request.contextPath}/tech-over-tea-2">2</a></li>  
+            
+        <li class="disabled"><a href="${pageContext.request.contextPath}/tech-over-tea-2">&raquo;</a></li>
       </ul>     
      </div>
     

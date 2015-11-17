@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Life</title>
+<title>Tech talks</title>
 <link rel="icon" href="${pageContext.request.contextPath}/images/coffee-512.png" type="image/x-icon">
 <link rel="stylesheet"
 	href="${pageContext.request.contextPath}/bootstrap/css/bootstrap.css">
@@ -42,9 +42,9 @@
 						<li><a href="${pageContext.request.contextPath}/life"
 						style="font-family: myFirstFont; font-size: 20px">Life</a></li>
 						
-						<li><a href="${pageContext.request.contextPath}/tech-over-tea"
+												<li><a href="${pageContext.request.contextPath}/tech-over-tea"
 						style="font-family: myFirstFont; font-size: 20px">Tech over Tea</a></li>	
-												
+						
 					<li><a href="${pageContext.request.contextPath}/saySomething"
 						style="font-family: myFirstFont; font-size: 20px">Say
 							Something</a></li>
@@ -53,6 +53,8 @@
 
 		</div>
 	</div>
+	<br />
+	<br />
 	<br />
 	<br />
 	<br />
@@ -69,79 +71,62 @@
          
          <div class="col-md-3">
            <div class="thumbnail">
-            <a href="${pageContext.request.contextPath}/life/from-one-tea-to-another-tea"><img  src="${pageContext.request.contextPath}/images/large.png"/></a><br/>
-           <br/> <a class="text-center" href="${pageContext.request.contextPath}/life/from-one-tea-to-another-tea" style="font-family: myFirstFont; font-size: 20px">There is no such thing as too much tea ...</a>            
+            <a href="${pageContext.request.contextPath}/blog/code-highlighting-with-prism"><img  src="${pageContext.request.contextPath}/images/sunset_theme_js.png"   /></a><br/>
+            <br/><a class="text-center" href="${pageContext.request.contextPath}/blog/code-highlighting-with-prism" style="font-family: myFirstFont; font-size: 20px">Code Highlighting with Prism</a>            
            </div>
          </div>
          
           <div class="col-md-3">
            <div class="thumbnail">
-            <a href="${pageContext.request.contextPath}/life/i-love-bangalore"><img src="${pageContext.request.contextPath}/images/B5KdHlA29Q.jpg"   /> </a>
-            <a class="text-center" href="${pageContext.request.contextPath}/life/i-love-bangalore" style="font-family: myFirstFont; font-size: 20px">I love bangalore </a>                    
+            <a href="${pageContext.request.contextPath}/blog/using-lightbox"><img src="${pageContext.request.contextPath}/images/lightbox_gallery_on.jpg"   /> </a>
+            <a class="text-center" href="${pageContext.request.contextPath}/blog/using-lightbox" style="font-family: myFirstFont; font-size: 20px">Using lightbox2 </a>                    
            </div>
          </div>
            
            <div class="col-md-3">
            <div class="thumbnail">
-            <a href="${pageContext.request.contextPath}/life/give-more"><img src="${pageContext.request.contextPath}/images/give.jpg"  /></a>
-           <br/><br/><br/><a class="text-center" href="${pageContext.request.contextPath}/life/give-more" style="font-family: myFirstFont; font-size: 20px">Give more you will end up having more </a>                               
+            <a href="${pageContext.request.contextPath}/blog/why-i-love-brackets"><img src="${pageContext.request.contextPath}/images/052813_1128_BracketsOpe1.png"  /></a>
+           <br/><br/><br/><a class="text-center" href="${pageContext.request.contextPath}/blog/why-i-love-brackets" style="font-family: myFirstFont; font-size: 20px">Why I love Brackets </a>                               
            </div>                     
          </div>
                   
           <div class="col-md-3">
-           <div class="thumbnail">
-            <a href="${pageContext.request.contextPath}/life/dare-to-be-yourself"><img src="${pageContext.request.contextPath}/images/born.jpg"  /></a>
-            <a class="text-center" href="${pageContext.request.contextPath}/life/dare-to-be-yourself" style="font-family: myFirstFont; font-size: 20px">Dare to be youself </a>                               
-           </div>            
+           <div class="thumbnail"><br/>
+            <a href="${pageContext.request.contextPath}/blog/handy-eclipse-ide-tips"><img src="${pageContext.request.contextPath}/images/eclipse.png"  /></a>
+            <br/><br/> <br/><br/><br/>
+            <a class="text-center" href="${pageContext.request.contextPath}/blog/handy-eclipse-ide-tips" style="font-family: myFirstFont; font-size: 20px">Eclipse IDE Shortcuts </a>                               
+           </div> 
+           </div>           
          </div>
          
          
         
         </div>
-    </div>
+    
 	
 	
 	
 	
 	<!-- ------- Thumbnails Ends -->
 	
-
-    <!-- - Pagination Starts 
+  <br/><br/><br/><br/>
+    <!-- Pagination Starts -->
     
      <div class="text-center container">
       <ul class="pagination  pagination-lg">
-        <li class="disabled"><a href="">&laquo;</a></li>
-        <li class="active"><a href="${pageContext.request.contextPath}/life">1</a></li>
-        <li><a href="${pageContext.request.contextPath}/life/2">2</a></li>
-        <li><a href="">3</a></li>
-        <li><a href="">4</a></li>
-        <li ><a href="${pageContext.request.contextPath}/life/2">&raquo;</a></li>
+        <li class="disabled"><a href="${pageContext.request.contextPath}/tech-over-tea">&laquo;</a></li>
+        
+        <li class="active"><a href="${pageContext.request.contextPath}/tech-over-tea">1</a></li>
+        <li><a href="${pageContext.request.contextPath}/tech-over-tea-2">2</a></li>  
+            
+        <li ><a href="${pageContext.request.contextPath}/tech-over-tea-2">&raquo;</a></li>
       </ul>     
      </div>
     
 
     <!--  Pagination ends -->
 
-	<!--   Font Awesome Icons ----------
-	<div class="container">
-		<div class="row">
-			<div class="col-centered text-center  col-md-12">
-
-				<a target="_blank" href="https://in.linkedin.com/in/alammahtab">
-					<i style="font-size: 40px" class="bigIcon fa fa-linkedin"></i>
-				</a> <a target="_blank" href="https://twitter.com/alammahtab08"> <i
-					style="font-size: 40px" class="bigIcon fa fa-twitter"></i>
-				</a> <a target="_blank" href="https://plus.google.com/+mahtabalam08">
-					<i style="font-size: 40px" class="bigIcon fa fa-google-plus"></i>
-				</a> <a target="_blank"
-					href="https://www.facebook.com/mahtab.alam.92372"> <i
-					style="font-size: 40px" class="bigIcon fa fa-facebook"></i>
-				</a>
-
-			</div>
-		</div>
-	</div>
--->
+	
 
 	 <script src="${pageContext.request.contextPath}/bootstrap/js/jquery-1.11.3.js"></script>
      <script src="${pageContext.request.contextPath}/bootstrap/js/bootstrap.min.js"></script> 

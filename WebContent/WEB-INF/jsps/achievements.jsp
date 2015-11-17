@@ -82,6 +82,8 @@ ul.nav-tabs.affix {
                           <li><a href="${pageContext.request.contextPath}/booksRead" style="font-family:myFirstFont;font-size:20px">Books Read</a></li>
                           <li><a href="${pageContext.request.contextPath}/life"
 						style="font-family: myFirstFont; font-size: 20px">Life</a></li>	
+						<li><a href="${pageContext.request.contextPath}/tech-over-tea"
+						style="font-family: myFirstFont; font-size: 20px">Tech over Tea</a></li>
                           <li><a href="${pageContext.request.contextPath}/saySomething" style="font-family:myFirstFont;font-size:20px">Say Something</a></li>                     
                 </ul>
             </div>     
@@ -359,8 +361,8 @@ I was suggested to use graph databse to model this problem as it is the best fit
       </div>
 -->
     
-    <script src="bootstrap/js/jquery-1.11.3.js"></script>
-    <script src="bootstrap/js/bootstrap.min.js"></script>    
+    <script src="${pageContext.request.contextPath}/bootstrap/js/jquery-1.11.3.js"></script>
+    <script src="${pageContext.request.contextPath}/bootstrap/js/bootstrap.min.js"></script>  
     
 </body>
     

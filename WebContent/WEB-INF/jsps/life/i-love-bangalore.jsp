@@ -4,7 +4,6 @@
     <title>I love bangalore </title>
     <link rel="icon" href="${pageContext.request.contextPath}/images/coffee-512.png" type="image/x-icon">
 <link rel="stylesheet" href="${pageContext.request.contextPath}/bootstrap/css/bootstrap.css">
-<link rel="stylesheet" href="${pageContext.request.contextPath}/bootstrap/css/animate.css">
 <link rel="stylesheet" href="${pageContext.request.contextPath}/bootstrap/css/custom.css">
 <link rel="stylesheet" href="${pageContext.request.contextPath}/bootstrap/css/style.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
@@ -31,6 +30,8 @@
                           <li><a href="${pageContext.request.contextPath}/booksRead" style="font-family:myFirstFont;font-size:20px">Books Read</a></li>
                           <li><a href="${pageContext.request.contextPath}/life"
 						style="font-family: myFirstFont; font-size: 20px">Life</a></li>	
+						<li><a href="${pageContext.request.contextPath}/tech-over-tea"
+						style="font-family: myFirstFont; font-size: 20px">Tech over Tea</a></li>	
                           <li><a href="${pageContext.request.contextPath}/saySomething" style="font-family:myFirstFont;font-size:20px">Say Something</a></li>                   
                 </ul>
             </div>     
@@ -90,8 +91,8 @@
     </div>
     
     
-    <script src="bootstrap/js/jquery-1.11.3.js"></script>
-    <script src="bootstrap/js/bootstrap.min.js"></script>    
+    <script src="${pageContext.request.contextPath}/bootstrap/js/jquery-1.11.3.js"></script>
+    <script src="${pageContext.request.contextPath}/bootstrap/js/bootstrap.min.js"></script>  
     <script type="text/javascript">
       /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
      var disqus_shortname = 'mahtabalam'; // required: replace example with your forum shortname
